@@ -1,0 +1,86 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background: url('https://example.com/space-background.jpg') no-repeat center center fixed; /* Fondo de espacio */
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 100px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Sección Sobre mí */
+#about {
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sección Contacto */
+#contact {
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+}
+
+#contact a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1rem;
+}
