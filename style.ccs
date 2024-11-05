@@ -9,7 +9,7 @@
 body {
   font-family: 'Arial', sans-serif;
   color: white;
-  background: url('https://example.com/space-background.jpg') no-repeat center center fixed; /* Fondo de espacio */
+  background: url('https://img.freepik.com/foto-gratis/fondo-espacio-acuarela-pintado-mano-nebulosa-estrellas_1048-14650.jpg?semt=ais_hybrid') no-repeat center center fixed; /* Fondo de espacio */
   background-size: cover;
   min-height: 100vh;
   text-align: center;
